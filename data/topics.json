@@ -1,21 +1,130 @@
 {
 	"name": "topics",
-	"children": [{
-			"name": "Tech Stack",
+	"children": [
+		{
+			"name": "Software Delivery",
 			"children": [{
-					"name": "Build in-house, buy commercial, or use open source?",
+					"name": "Build",
 					"value": 50
 				},
 				{
-					"name": "Programming Language",
+					"name": "Version Control",
 					"value": 50
 				},
 				{
-					"name": "Server-side Framework",
+					"name": "Continuous Integration",
 					"value": 50
 				},
 				{
-					"name": "Database",
+					"name": "Trunk-based Development",
+					"value": 50
+				},
+				{
+					"name": "Branch by Abstraction",
+					"value": 50
+				},
+				{
+					"name": "Feature Toggles",
+					"value": 50
+				},
+				{
+					"name": "Deployment",
+					"children": [{
+							"name": "Hosting",
+							"value": 50
+						},
+						{
+							"name": "Configuration Management",
+							"value": 50
+						},
+						{
+							"name": "Application Configuration",
+							"value": 50
+						},
+						{
+							"name": "Virtual Machines",
+							"value": 50
+						},
+						{
+							"name": "Containers",
+							"value": 50
+						},
+						{
+							"name": "Orchestration Tools",
+							"value": 50
+						},
+						{
+							"name": "Deployment Automation",
+							"value": 50
+						}
+					]
+				},
+				{
+					"name": "Continuous Delivery",
+					"value": 50
+				},
+				{
+					"name": "Rollback",
+					"value": 50
+				},
+				{
+					"name": "Backward Compatibility",
+					"value": 50
+				},
+				{
+					"name": "Monitoring",
+					"value": 50
+				},
+				{
+					"name": "Logging",
+					"children": [{
+							"name": "Log Names",
+							"value": 50
+						},
+						{
+							"name": "Log Levels",
+							"value": 50
+						},
+						{
+							"name": "Log Formatting",
+							"value": 50
+						},
+						{
+							"name": "Log Aggregation",
+							"value": 50
+						}
+					]
+				},
+				{
+					"name": "Metrics",
+					"children": [{
+							"name": "Availability Level",
+							"value": 50
+						},
+						{
+							"name": "Business Level",
+							"value": 50
+						},
+						{
+							"name": "Application Level",
+							"value": 50
+						},
+						{
+							"name": "Process Level",
+							"value": 50
+						},
+						{
+							"name": "Code Level",
+							"value": 50
+						},
+						{
+							"name": "Server Level",
+							"value": 50
+						}
+					]
+				},
+				{
+					"name": "Alerting",
 					"value": 50
 				}
 			]
